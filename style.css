@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.main{
+    margin: 2em auto;
+    width: 80%;
+    height: 100%;
+}
+
+.search-box{
+    padding: 1em;
+}
+
+.search-box input{
+    width: 100%;
+    padding: 0.5em;
+}
+
+.color-boxes{
+    display: flex;
+    height: 40%;
+}
+.box{
+    border: 1px solid black;
+    width: 12.5%
+}
+
+.box.remove{
+    display: none;
+}
+
